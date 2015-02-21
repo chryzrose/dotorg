@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC 
+	"-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Chrystal Seager - Professional Portfolio - Home</title>
+	<link rel="stylesheet" href="project.css" type="text/css" />
+
+</head>
+<body>
+	<div id="container">
+    
+		<!--#include virtual="masthead.html" -->
+        
+		<!--#include virtual="menu.html" -->
+        
+		<div id="content">
+ 			<h1>Portfolio Home</h1>       
+            <!-- Your Content goes here! -->	
+			
+			<h2>Welcome!</h2>
+	
+			
+				<p>
+When I first walked into the Wilson W. Clark Memorial Library in September 1994 to inquire about student assistant positions at the University of Portland, I did not know what a fateful decision I had made.  Being a librarian had never before occurred to me as a possible career choice. My strong verbal abilities, desire to help others, and sense of idealism combined with my interests in human behavior, languages, and cultures had led me to declare a major in psychology with a minor in French.  Employed over the next few years in the circulation and interlibrary loan departments, however, I realized these same characteristics were also suited to librarianship. After eight years as a circulation clerk with the Hillsboro Public Libraries, I decided to pursue an MLIS through the University of Washington‘s iSchool. </p>
+
+<p><a href="http://commons.wikimedia.org/wiki/File:Goldsworthy-Cone-sculpture-.jpg" title="Spire by Andy Goldsworthy"><img class="floatleft" src="images/spire.jpg" alt="Andy Galsworthy Spire" width="133" height="200"/></a>As part of the application process, I stated at the time that my goals in the program were to obtain a solid foundation in the principles of library and information science and their practical application, to become more technologically proficient, and to clarify my areas of focus. I have accomplished all these goals and much more, as is demonstrated throughout this portfolio. My acquired knowledge of core library principles and experience with their practical application is presented through my artifacts and my reflections on those artifacts. These artifacts and reflections are organized around five core areas of knowledge and experience: intellectual, practical/service, technological, teaching, and leadership.</p>
+
+<p>As you move through my portfolio artifacts and reflections, themes begin to emerge in terms of my areas of professional interest, and the strengths I demonstrate flow logically from those interests.Two broad themes in particular are my interests in and aptitude for both research environments and providing reference services for minority or special interest populations. For instance, early on in the program I chose to research immigrant information behavior and barriers, and then propose means for overcoming those barriers. For my fieldwork, I developed reference skills in the Oregon Historical Society Research Library. After obtaining an assistant position with the Washington County Law Library in 2009, I took a class soon after in government documents, writing a research paper that required familiarity with federal government structures and agency resources. I then pursued an independent study into legal research and resources and composed a legal memo summarizing in-depth research into a legal topic. I also prepared and later presented a workshop for public librarians about law libraries and legal research.</p>
+
+<p>Throughout the portfolio’s various artifacts you will also see demonstrated my commitment to the principles pervading those research areas: intellectual freedom, open access, social justice, and education. One example of this is my research into intellectual freedom in Iraq. Through my experiences in these areas I have shown strength in the following skills: written and verbal communication, information organization and presentation, interpersonal relations, reference, and collaboration.</p> 
+
+<p>As for technological skills, in addition to taking a basic course in information technologies and later a more in-depth course in website design -- for which I designed this portfolio website -- I have remained current in my use of media technologies to create presentations and documents throughout the program. I have created and contributed to blogs and am familiar with current social networking technologies. I have also gained a greater understanding of the critical social issues surrounding technology and libraries, such as the digital divide, open access, and usability.</p>
+
+<p>My original educational goals helped to shape these experiences, and in turn, these experiences have helped to shape my career goals. I want to provide reference, research, and educational services in research or special libraries, particularly in environments involving minority populations, international affairs, governmental/legal resources, or historical inquiry. I came into this program analytical, resourceful, compassionate, and enthusiastic about connecting people with knowledge and resources; I leave it with those same characteristics. I also leave it, however, with confidence that I now possess not just that enthusiasm, but also the competency to serve well and the capacity for continued growth as a capable, committed information professional.</p>
+						
+
+		
+        </div><!-- End content -->
+		
+		<!--#include virtual="footer.html" -->		
+
+	</div><!-- End container -->
+   
+</body>
+</html>
+

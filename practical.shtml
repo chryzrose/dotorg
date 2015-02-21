@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC 
+	"-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Chrystal Seager - Professional Portfolio - Practical/Service Experience</title>
+	<link rel="stylesheet" href="project.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+    
+		<!--#include virtual="masthead.html" -->
+        
+		<!--#include virtual="menu.html" -->
+        
+		<div id="content">
+ 			<h1>Serve: Practical Experience</h1>       
+            <!-- Your Content goes here! -->
+
+<h2>Oregon Historical Society Directed Fieldwork</h2>
+
+<h3>Artifacts</h3>
+	
+	<p><a href="http://sites.google.com/site/ohsdirectedfieldwork/">Fieldwork Site: includes links to Search Guides, Journal, Narrative, and Evaluation</a></p>
+<h3>Discussion</h3>
+	<p>As a Directed Fieldwork student at the Oregon Historical Society, I primarily focused on acquiring reference skills in a specialized library environment, in keeping with my professional interest in special and research libraries. As part of this focus, I compiled three search guides for use by patrons. The guides are basically a bibliography of resources related to each topic. Because the Society’s collections as well as indexes and finding aids for accessing them are so varied, disparate, as well as sometimes incomplete or out-of-date, search guides help to greatly increase access and motivate use of the collections by removing a level of initial effort in the research process and ensuring the researcher is made aware of all the potentially relevant resources. In the future, I would improve these guides by increasing their visual appeal and having some background educational information about the topic areas or collection sources included in the guide. They could also be made available electronically to increase their usefulness.</p>
+
+<p>Each guide is organized slightly differently according to the nature of the topic; for instance, the first guide is organized first by level of geographic specificity and then alphabetically. Since urban renewal is a topic where it is important for the user to know whether the resource addresses the local urban renewal (in this case, the urban renewal project in Portland, Oregon in the 1960's) or urban renewal in general, this makes sense, and matches the organization of the resource to the search process typically engaged in by a user in a particular topic. Other ways to present the information that would make each guide more useful include presenting the information in a table format, or referring the user to other resources that help guide them through the use of a particular collection.</p>
+
+<p>The guides synthesize a variety of information sources - there are so many source collections available in the Society’s research library! - and the topics were selected on the basis of how frequently they were asked about at the reference desk to ensure relevance. Also, the organization of the guides themselves facilitate relevancy. As an example, in the third guide about the Vanport flood, often users are interested only in photographs. Having the resources organized by format type helps the patron go directly to the resource type relevant to their needs. </p>
+
+<p>While my focus here is on the search guides I created during my fieldwork at the Research Library, I encourage you to look through the entire site I created separately for my fieldwork experience. It includes my fieldwork objectives,  a daily journal of reference activities and learning experiences, a narrative, and, most importantly, an evaluation of selected journal entries that reflect there upon my demonstrated growth in reference skills.</p>
+    
+	
+        </div><!-- End content -->
+		
+		<!--#include virtual="footer.html" -->		
+
+	</div><!-- End container -->
+</body>
+</html>
+

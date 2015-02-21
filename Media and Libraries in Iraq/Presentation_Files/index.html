@@ -1,0 +1,212 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script language="javascript" type="text/javascript" src="flashobject.js"></script>
+  <script language="javascript" type="text/javascript">
+  <!--
+    var SD = undefined;
+    if (window.parent != window.self && typeof(window.parent) == 'object')
+    {
+        SD = window.parent;
+    }
+    
+    function closeDown(){
+        //when a course is closed, this is called by onunload event  
+        if (this.SD != undefined){
+            this.SD.CommitData();
+            this.SD.LMSFinish("");
+        }
+    }  
+
+    //functionality of email and export for quiz results
+    var stringArray ="";
+    var mailAddress ="";
+    var IDinfo ="";
+    var originalNumbers="";
+    var originalNumbersArray;
+    function getWindow(mailIt){
+        var writeString = "";
+        var questions = stringArray.split("&");
+        for (i=0;i<questions.length;i++){
+            questions[i] = questions[i].split("|");
+        }
+        if (mailIt == false){
+            results = window.open("about:blank",'resultsWindow');
+            writeString = "<HTML><HEAD><TITLE>Final Results</TITLE></HEAD><body>" + questions[0][0] + "<br />"; 
+            writeString += questions[0][1] + "<br />" + questions[0][2] + "<br />" + questions[0][3]; 
+            writeString += "<br /><br /><table width='100%' border='1' cellspacing='0' cellpadding='0'>";
+            writeString += "<tr><td width='4%'>&nbsp;#</td><td width='50%'>&nbsp;Question</td>";
+            writeString += "<td width='20%'>&nbsp;Type</td><td width='12%'>&nbsp;Status</td>";
+            writeString += "<td width='7%'>&nbsp;Score</td><td width='7%'>&nbsp;Points</td></tr>";
+            var oddRow = true;
+            for (i=1;i<questions.length;i++){
+                if(i+1 != questions.length){
+                    writeString += "<tr><td width='4%'>&nbsp;" + i + "</td>";
+                    writeString += "<td width='50%'>&nbsp;" + questions[i][0] + "</td>";
+                    writeString += "<td width='20%'>&nbsp;" + questions[i][1] + "</td>";
+                    writeString += "<td width='12%'>";
+                    writeString += "&nbsp;" + questions[i][2] + "</td><td width='7%'>&nbsp;" + questions[i][3] + "</td>";
+                    writeString += "<td width='7%'>&nbsp;" + questions[i][4] + "</td></tr>";
+                } else {
+                    writeString += "<tr><td width='4%'>&nbsp;</td>";
+                    writeString += "<td width='50%'>&nbsp;" + questions[i][0] + "</td>";
+                    writeString += "<td width='20%'>&nbsp;</td><td width='12%'>&nbsp;" + questions[i][1] + "</td>";
+                    writeString += "<td width='7%'>&nbsp;" + questions[i][2] + "</td><td width='7%'>&nbsp;" + questions[i][3] + "</td>";
+                    writeString += "</tr></table>";
+                    
+                }
+            }
+            writeString +='</body></html>';
+            results.document.write(writeString);
+            results.document.close();
+        } else if (mailIt == true) {
+            for (i=0;i<questions.length;i++){
+                for (j=0;j<questions[i].length;j++){
+                    questions[i][j] = questions[i][j].toString().replace("%", "%25");
+                }
+            }
+            for (i=0;i<questions.length-1;i++){
+                if(i==0){
+                    writeString += questions[i].join("%0A");
+                    writeString += "%0A%0AQuestions:";
+                } else {
+                    writeString += originalNumbersArray[i-1] + ". ";
+                    if (originalNumbersArray[i-1].length < 3){
+                        writeString += "  ";
+                    }
+                    if (originalNumbersArray[i-1].length < 2){
+                        writeString += "  ";
+                    }
+                    writeString += questions[i][2] + "     ";
+                    if (questions[i][2].length > 8){
+                        writeString += " ";
+                    }
+                    if (questions[i][2].length < 8){
+                        writeString += "   ";
+                    }
+                    writeString += questions[i][3] + " / " + questions[i][4];
+                }
+                writeString += "%0A";
+            }
+            var mailLink = "mailto:" + mailAddress +"?subject=" + IDinfo + "&body="+ writeString;
+            window.open(mailLink); 
+        }
+    }
+    
+    //functionality of lnkLaunchURL
+    var lnkWindow = undefined;
+    var lnkIntervalID = undefined;
+    var lnkWaitCount = 0;
+    var lnkWaitMaxCount = 50;
+    var lnkWaitInterval = 100;
+    
+    function lnkUpdateWindow(){
+        lnkWaitCount++;
+        
+        if (lnkWindow){ 
+            if (typeof(lnkWindow.strAfter) != 'unknown' && lnkWindow.strAfter != undefined){
+                lnkWindow.strAfter += ";self.close();";
+
+                clearInterval(lnkIntervalID);
+                lnkIntervalID = undefined;
+                lnkWindow = undefined;
+            } 
+            else if (lnkWaitCount > lnkWaitMaxCount){
+                lnkWindow.close();
+                
+                clearInterval(lnkIntervalID);
+                lnkIntervalID = undefined;
+                lnkWindow = undefined;
+            }
+        }
+    }    
+    
+    //Handle FSCommand messages from Flash
+    function loader_DoFSCommand(command, args){
+      
+        // functions related to the print and email quiz results
+        if (command == "storeIDInfo"){
+              IDinfo = args;
+        }
+        else if (command == "storeString"){
+              stringArray = args;
+              getWindow(false);
+        }
+        else if (command == "mailAddress"){
+              mailAddress = args;
+        }
+        else if (command == "mailResults"){
+              stringArray = args;
+              getWindow(true);
+        }
+        else if (command == "storeNumbers"){
+              originalNumbers = args;
+              originalNumbersArray = originalNumbers.split("&")
+        } 
+        
+        // functions related to the lnkLaunchURL feature
+        else if (command == "lnkLaunchURL"){
+            lnkWaitCount = 0;
+            lnkWindow = window.open(args, "_blank"); 
+            lnkIntervalID = setInterval("lnkUpdateWindow()",lnkWaitInterval);
+        } 
+    } 
+  //-->
+  </script>
+</head>
+
+<body bgcolor="#919499" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0"
+  onunload="closeDown()">
+
+  <div id="flashcontent" style="font:14px Verdana">
+    This course requires <b>Flash Player version 8</b> or higher.<p>
+    You may install the player plugin for free from Macromedia.<br>
+    <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" target="_blank">
+    <b>Click here</b></a> to download or upgrade your browser's Flash Player.<p>
+    <b style="color:red">Note:</b> Once the plugin has finished installing, please close<br>
+    down this browser window and restart the course.
+  </div>
+
+  <script language="javascript" type="text/javascript">
+  <!--
+  
+    // pass CGI args along to the flash movie
+    var loaderString = "cplayer.swf";
+    var bgColor = "#919499";
+    var loc = document.location.toString();
+    var index = loc.indexOf("?");
+    if (index > 0) {
+      var params = loc.substring(index,loc.length);
+      loaderString += params;
+    }
+
+
+    // Create flash object tag here (version 8 is the current minimum)
+    var fo = new FlashObject(loaderString,'loader','100%','100%',8,bgColor);
+    fo.addParam('swLiveConnect','true');
+    fo.addParam('SeamlessTabbing', 'false');
+    fo.addVariable('lcId',window.parent.lcId);
+
+    fo.write('flashcontent');
+
+  //-->
+  </script>
+
+  <script language="javascript" type="text/javascript">
+  <!--
+    // FSCommand hook for Internet Explorer
+    var IE = navigator.appName.indexOf("Microsoft") != -1;
+    if (IE) {
+      document.write('<'+'SCRIPT LANGUAGE="VBScript">\n');
+      document.write('on error resume next \n');
+      document.write('Sub loader_FSCommand(ByVal command, ByVal args)\n');
+      document.write('  call loader_DoFSCommand(command, args)\n');
+      document.write('end sub\n');
+      document.write('<'+'/SCRIPT>\n');
+    }
+  //-->
+  </script>
+  <div style="position: absolute; height: 50px; width: 200px; left: -200px; top: 100px; right: 300px; bottom: 350px;">PowerPoint to Flash conversion by <a href="www.pointecast.com" title="PowerPoint to Flash">PointeCast</a></div>
+</body>
+</html>

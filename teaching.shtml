@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC 
+	"-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Chrystal Seager - Professional Portfolio - Teaching/Training Experience</title>
+	<link rel="stylesheet" href="project.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+    
+		<!--#include virtual="masthead.html" -->
+       
+		<!--#include virtual="menu.html" -->
+        
+	<div id="content">
+	<h1>Share: Teaching Experience</h1>       
+            <!-- Your Content goes here! -->	
+	<h2>Law Library and Legal Reference Workshop for Public Reference Librarians</h2>
+	
+	<h3>Artifact</h3>
+	
+	<p><a href="http://students.washington.edu/chryz/lis_600/law%20_library_workshop/LegalResearchWorkshop.ppt">Law Library Workshop Presentation (Powerpoint)</a></p>
+	
+	<h3>Discussion</h3>
+		
+    <p>In the fall of 2010, I prepared a presentation about law libraries and legal research basics for public librarians, and then soon after gave the presentation to a small group of local public librarians. In this presentation, I demonstrate in particular my knowledge of the legal system and the nature of law library services. Public librarians are both users of their public law library as well as professional colleagues of the law librarians who work there. As law librarian professionals, we want to encourage public librarians to see us as a special reference resource that assists them in assisting their patrons with legal reference and referral questions. It is essential, then, that we are competent in sharing our knowledge and expertise of our specialized area of law librarianship with public librarians as both colleagues and users.</p> 
+
+<p><img src="images/reference.JPG" alt="Three legal research books" class="floatright"/>One of the two main objectives of the presentation is to familiarize public librarians with the law library’s services and collections in ways consistent with the needs and mission of the law library organization. An important part of the mission of a public law library is to educate those with legal needs both about the complexity of legal research and practice and the kinds of resources and services available to help them navigate that environment. Many people come to their local public library first with those needs, making it therefore crucial that law librarians educate public librarians on both principles of law librarianship and the resources available to them and to us. This presentation provides that education by giving an overview of the types of services we provide and the sorts of resources we have at our disposal for addressing four common examples of legal reference questions.</p>
+
+<p>In this presentation, I apply various principles of adult learning. For instance, I clearly state objectives of the presentation in the beginning of the course. The format of the presentation itself is a tool for visual learners; in addition, I had accompanying handouts given to those who attended. Near the beginning of the presentation, I engage the learners personally and focus them on the topic by asking them about their own experiences with legal reference questions. I then try to employ other principles, such as humor and presenting information in digestible, well-organized chunks; at the end, I summarize and give the learners the opportunity to ask questions. One way in which I think I could improve this presentation is to shorten it or break it into two separate presentations, as I found out when I presented it that it was probably too long or too much information to pack into one event.</p>
+
+<p>The presentation discusses different types of legal resources. The presentation organizes them in multiple ways: by branch of government, by legal status of material (primary, secondary, mandatory, persuasive), and by format type (print and online). It also presents original law library resources that help guide users in their use of legal resources, such as resource referral cards and handouts detailing law library services for county residents and attorneys respectively. It does not go into much depth in how to use any one particular source (for instance, a Westlaw database), as training on any one legal resource is usually a broad enough topic for an entire individual presentation.</p>
+
+<p>The presentation demonstrates my ability to prepare, organize, and present useful information in a flexible format tailored to the needs of the learner. After I presented it, the librarians asked me if it could be posted for future reference on the county law library’s website, which I did. Handouts were also created for this presentation, most notably an amalgamation of our resource referral cards. I do think in the future other useful materials could accompany the presentation: legal bibliographies, online sharing and updating of our resource referral cards, and perhaps recording a narrative for the presentation and making it available online so that librarians could listen to it at their convenience without attending a scheduled workshop.</p>
+<p>My colleague and I were subsequently asked to give this presentation (as well as a courthouse tour) to public reference librarians countywide at their monthly training event in June 2011. We successfully updated and modified the presentation for this larger audience.</p>
+
+		
+        </div><!-- End content -->
+		
+		<!--#include virtual="footer.html" -->		
+
+	</div><!-- End container -->
+</body>
+</html>
+

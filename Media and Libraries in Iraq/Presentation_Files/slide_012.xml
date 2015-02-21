@@ -1,0 +1,9 @@
+<slide id="12" fileName="slide_012.swf">
+    <narration>
+        <part id="p0" fileName="sound_012_00.swf" totalFrames="795" />
+    </narration>
+    <externalObjects>
+        <external holderName="ms_12" fileName="master_1.swf" xScale="1.0000" yScale="1.0000" />
+    </externalObjects>
+    <smartObjects />
+</slide>

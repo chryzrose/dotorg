@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ELEMENTS */
+body {background: #00B25C;}
+h1 {font-family: Palatino Linotype; font-variant: small-caps; color: #218555;}
+h2, h3 {font-family: Palatino Linotype;}
+a:link {color: #000000;}
+a:hover {color: #FFFFFF;}
+a:visited {color: #FFFFFF;}
+
+/* DIVISIONS */
+#wrap {}
+#header {width: 75%; float: right; margin: 10px; padding: 10px; background: #36D88A;}
+#navigation {position: fixed; margin: 10px; padding: 10px;}
+#main {width: 75%; float: right; margin: 10px; padding: 10px; background: #36D88A;}
+#footer {clear: both;}
+
+/* CLASSES */
+.localnav {width: 50%; background: #218555;}

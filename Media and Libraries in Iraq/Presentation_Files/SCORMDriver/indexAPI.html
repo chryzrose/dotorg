@@ -1,0 +1,32 @@
+<!--/* Copyright © 2003-2005 Rustici Software, LLC  All Rights Reserved. */-->
+<HTML>
+    <HEAD>
+        <TITLE></TITLE>
+        <script language="JavaScript1.2" src="APIConstants.js"></script>
+        <script language="JavaScript1.2" src="Configuration.js"></script>
+        <script language="JavaScript1.2" src="UtilityFunctions.js"></script>
+        <script language="JavaScript1.2" src="SCORM2004Functions.js"></script>
+        <script language="JavaScript1.2" src="SCORMFunctions.js"></script>
+        <script language="JavaScript1.2" src="AICCFunctions.js"></script>
+        <script language="JavaScript1.2" src="NONEFunctions.js"></script>
+        <script language="JavaScript1.2" src="LMSAPI.js"></script>
+        <script language="JavaScript1.2" src="API.js"></script> 
+        <script language="JavaScript1.2">
+        
+        strContentLocation = "../index.html";  //Put the link to the start of the content here.
+        
+        function LoadContent(){
+            window.scormdriver_content.document.location.href = strContentLocation;
+        }
+        </script>
+    </HEAD>
+    <frameset rows="100%,0%,0%,0%" onload="Start()" onbeforeunload="Unload()" onunload="Unload()" border="0">
+	<frame name="scormdriver_content" src="blank.html">
+        <frame name="AICCComm" src="AICCComm.html">
+        <frame name="rusticisoftware_aicc_results" src="blank.html">
+        <frame name="NothingFrame" src="blank.html">
+    </frameset> 
+    <noframes>
+        Your browser must be able to view frames for this content to display.
+    </noframes>
+</HTML>

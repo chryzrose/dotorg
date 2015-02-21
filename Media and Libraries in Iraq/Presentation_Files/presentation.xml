@@ -1,0 +1,295 @@
+<presentation>
+    <version ppt="11.0" product="PointeCast Publisher" edition="Professional Edition">4.8.3.524</version>
+    <title>
+        <![CDATA[International%20Issues%20in%20Intellectual%20Freedom]]>
+    </title>
+    <courseTitle>
+        <![CDATA[Media%20and%20Libraries%20in%20Iraq]]>
+    </courseTitle>
+    <fonts fileName="fonts.swf" fontName="cPlayerFont0" />
+    <ID1>
+        <![CDATA[9EE707D13B194C508458621EDC18B6FB]]>
+    </ID1>
+    <ID2>
+        <![CDATA[Publisher Date:11202]]>
+    </ID2>
+    <slideSize w="720" h="540" />
+    <logo />
+    <colors bgcolor="919499" />
+    <headshot />
+    <windowMode type="normal" />
+    <playlist />
+    <rules>
+        <LMS type="None" />
+        <reportedScore>average</reportedScore>
+        <onComplete>passed</onComplete>
+        <timeLimit active="false">01:00:00</timeLimit>
+        <averageQuizMasteryScore active="true">75</averageQuizMasteryScore>
+        <superQuizMasteryScore active="false">75</superQuizMasteryScore>
+        <individualQuizMasteryScore active="false" />
+    </rules>
+    <eoploop slide="-1" />
+    <customizations labelTheme="English">
+        <windowModes>
+            <windowMode type="normal">
+                <playpause visible="true" label1="Play" label2="Pause" />
+                <nextslide visible="true" label1="Next%20Slide" />
+                <prevslide visible="true" label1="Previous%20Slide" />
+                <slideindicator visible="true" label1="Slide" label2="of" />
+                <progressbar visible="true" />
+                <viewprogress visible="true" label1="View%20Progress" label2="Close%20Progress" />
+                <viewnotes visible="true" label1="View%20Notes" label2="Close%20Notes" />
+                <muteaudio visible="true" label1="Mute%20Audio" label2="Audio%20On" />
+                <mutewithbackground visible="true" label1="View%20Audio%20Settings" label2="Close%20Audio%20Settings" />
+                <audiosettings visible="true" label1="Audio%20Settings" label2="Mute%20Background" label3="Mute%20Narration" />
+                <studentname visible="true" />
+                <sessiontime visible="true" label1="Time" />
+                <exitbutton visible="false" label1="Exit" />
+                <headshot visible="true" />
+                <togglemode visible="true" label1="Maximize%20View" />
+                <tableofcontents visible="true" label1="Table%20of%20Contents" />
+                <slidenotes visible="true" label1="Slide%20Notes" />
+                <progressreport visible="true" label1="Progress%20Report" />
+                <required visible="true" label1="Required%20Slide" />
+                <notrequired visible="true" label1="Not%20Required" />
+                <completed visible="true" label1="Completed" />
+                <incomplete visible="true" label1="Incomplete" />
+                <slide visible="true" label1="Slide" />
+                <incompletecourse visible="true" label1="This%20course%20is%20incomplete%2E" />
+                <completedcourse visible="true" label1="You%20have%20completed%20this%20course%2E" />
+                <endofpresentation visible="true" label1="End%20of%20presentation%2E" />
+                <loadingslide visible="true" label1="Please%20wait%2C%20loading%20slide%2E%2E%2E" />
+                <nonotes visible="true" label1="No%20Notes%20attached%20to%20this%20slide%2E" />
+                <notestitle visible="true" label1="Presentation%20Notes" />
+                <btnOk visible="true" label1="Ok" />
+                <errLoadtitle visible="true" label1="Error%20Loading" />
+                <errLoaddata visible="true" label1="Slide%20data%20missing%2C%20could%20not%20load%20slide%2E" />
+            </windowMode>
+            <windowMode type="maximized">
+                <playpause visible="true" label1="Play" label2="Pause" />
+                <nextslide visible="true" label1="Next%20Slide" />
+                <prevslide visible="true" label1="Previous%20Slide" />
+                <slideindicator visible="false" label1="Slide" label2="of" />
+                <progressbar visible="true" />
+                <viewprogress visible="false" label1="View%20Progress" label2="Close%20Progress" />
+                <viewnotes visible="false" label1="View%20Notes" label2="Close%20Notes" />
+                <muteaudio visible="true" label1="Mute%20Audio" label2="Audio%20On" />
+                <mutewithbackground visible="true" label1="View%20Audio%20Settings" label2="Close%20Audio%20Settings" />
+                <audiosettings visible="false" label1="Audio%20Settings" label2="Mute%20Background" label3="Mute%20Narration" />
+                <studentname visible="false" />
+                <sessiontime visible="false" label1="Time" />
+                <exitbutton visible="false" label1="Exit" />
+                <headshot visible="false" />
+                <togglemode visible="true" label1="Minimize%20View" />
+                <tableofcontents visible="false" label1="Table%20of%20Contents" />
+                <slidenotes visible="true" label1="Slide%20Notes" />
+                <progressreport visible="false" label1="Progress%20Report" />
+                <required visible="false" label1="Required%20Slide" />
+                <notrequired visible="false" label1="Not%20Required" />
+                <completed visible="false" label1="Completed" />
+                <incomplete visible="false" label1="Incomplete" />
+                <slide visible="false" label1="Slide" />
+                <incompletecourse visible="false" label1="This%20course%20is%20incomplete%2E" />
+                <completedcourse visible="false" label1="You%20have%20completed%20this%20course%2E" />
+                <endofpresentation visible="false" label1="End%20of%20presentation%2E" />
+                <loadingslide visible="false" label1="Please%20wait%2C%20loading%20slide%2E%2E%2E" />
+                <nonotes visible="false" label1="No%20Notes%20attached%20to%20this%20slide%2E" />
+                <notestitle visible="false" label1="Presentation%20Notes" />
+                <btnOk visible="false" label1="Ok" />
+                <errLoadtitle visible="false" label1="Error%20Loading" />
+                <errLoaddata visible="false" label1="Slide%20data%20missing%2C%20could%20not%20load%20slide%2E" />
+            </windowMode>
+        </windowModes>
+    </customizations>
+    <topics>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_001.xml">
+                    <title>
+                        <![CDATA[1%2E%20Media%20and%20Libraries%20in%20Iraq%3A%20Freedoms%20of%20Expression%20and%20Access]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_002.xml">
+                    <title>
+                        <![CDATA[2%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_003.xml">
+                    <title>
+                        <![CDATA[3%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_004.xml">
+                    <title>
+                        <![CDATA[4%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_005.xml">
+                    <title>
+                        <![CDATA[5%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_006.xml">
+                    <title>
+                        <![CDATA[6%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_007.xml">
+                    <title>
+                        <![CDATA[7%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_008.xml">
+                    <title>
+                        <![CDATA[8%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_009.xml">
+                    <title>
+                        <![CDATA[9%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_010.xml">
+                    <title>
+                        <![CDATA[10%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_011.xml">
+                    <title>
+                        <![CDATA[11%2E%20Media%2C%20Law%2C%20and%20Government]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_012.xml">
+                    <title>
+                        <![CDATA[12%2E%20Iraqi%20National%20Library%20and%20Archive]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_013.xml">
+                    <title>
+                        <![CDATA[13%2E%20Iraqi%20National%20Library%20and%20Archive]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_014.xml">
+                    <title>
+                        <![CDATA[14%2E%20Iraqi%20National%20Library%20and%20Archive]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_015.xml">
+                    <title>
+                        <![CDATA[15%2E%20Iraqi%20National%20Library%20and%20Archive]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_016.xml">
+                    <title>
+                        <![CDATA[16%2E%20Successful%20steps%20for%20IF%20in%20Iraq]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_017.xml">
+                    <title>
+                        <![CDATA[17%2E%20Successful%20steps%20for%20IF%20in%20Iraq]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_018.xml">
+                    <title>
+                        <![CDATA[18%2E%20Successful%20steps%20for%20IF%20in%20Iraq]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_019.xml">
+                    <title>
+                        <![CDATA[19%2E%20Successful%20steps%20for%20IF%20in%20Iraq]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_020.xml">
+                    <title>
+                        <![CDATA[20%2E%20IF%20in%20Iraq%3A%20Conclusions]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+        <topic hidden="true">
+            <slides>
+                <slide required="true" fileName="slide_021.xml">
+                    <title>
+                        <![CDATA[21%2E%20IF%20in%20Iraq%3A%20Conclusions]]>
+                    </title>
+                </slide>
+            </slides>
+        </topic>
+    </topics>
+</presentation>

@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+	img {
+		border: 5px outset #24577B;
+	
+		}
+	h1, h2, h3 { 
+		color: #03406a;
+	}
+	body {
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: #FFC273;
+		color: #000000;
+		text-align:justify;
+	}
+	a, a:active, a:link, a:visited {
+		color: #bf5730; 
+		text-decoration: none;
+	}
+	a:hover {
+		color: #a67b00; 
+		text-decoration: underline;
+	}
+	.borderless {
+		border:none;
+		} 
+	.floatright {
+		float: right;
+		font-style:italic;
+		font-size:80%;
+		margin-left:30px;
+		margin-bottom: 20px;
+	}
+	.floatleft {
+		float:left;
+		margin-right:30px;
+		margin-bottom: 20px;
+	}
+	.floatleftcenter {
+		float:left;
+		margin-right:30px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.contrast {
+		background-color: #FF9973;
+		color: #24577B;
+		padding: 10px;
+	}
+	.clearleft {
+		clear: left; 
+		}
+	.wrapMasthead {
+		clear: left;
+	}
+	#content {
+		width: 900px;
+		}
+	#container {
+		margin-left: 60px;
+		}
+	#imagefloat {
+	float:right;
+	position: absolute;
+	margin-top:50px;
+	margin-left:750px;
+	}
+	#masthead {
+border-bottom:1px solid #24577B;
+height:90px;
+	}
+	/* Styling for Menu */
+	
+	#menu 
+	ul {
+	list-style-type:circle; /* No bullets needed for nav bar */
+	margin:0; /* Removes browser's default settings */
+	padding:0; /* Removes browser's default settings */
+	background-color: #FFC273;
+	color:#24577B;
+	padding: 3px;
+	}
+	a, a:visited, a:active, a:link, a:hover {
+	text-decoration:none; 
+	color:#bf5730;
+	background-color:#FFC273;
+	font-weight:bold;
+	}
+	a:hover {
+	color:#03406A;
+	}
+	/* Horizontal Menu */
+	li {
+	display:inline; /* displays on same line */
+	float:left; /* floats after previous */
+	padding-right:10px;	/* sets gap between "buttons" */
+	}
+	
+	/* Styling for Navigation */
+
+
+	
+	
+	

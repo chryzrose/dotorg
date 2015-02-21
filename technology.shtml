@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC 
+	"-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Chrystal Seager - Professional Portfolio - Technological Experience</title>
+	<link rel="stylesheet" href="project.css" type="text/css" />
+</head>
+<body>
+	<div id="container">
+    
+		<!--#include virtual="masthead.html" -->
+        
+		<!--#include virtual="menu.html" -->
+        
+		<div id="content">
+ 			<h1>Create: Technological Experience</h1>       
+            <!-- Your Content goes here! -->	
+     <h2>Portfolio Website</h2>
+	 
+	 <h3>Artifact</h3>
+	<p><a href="chryzrose.org/index.shtml">Portfolio Home</a></p>
+	
+	<h3>Discussion</h3>
+	
+  <p>As a way of applying my HTML and CSS skills, I designed this website to house my MLIS portfolio. The website shows that I understand the basics of website design, including document types, web standards, organization, presentation, and so on. For instance, all the HTML and CSS files have been validated to W3C standards. Creating the site also required the understanding and use of web files, web servers, and transferring files using file transfer client software.</p>
+
+<p>The website demonstrates the principles of user interface usability and accessibility outlined in this competency in several ways. It employs a color design palette that ensures readability. It presents global navigation tabs that serve to allow the user to navigate the site and also conceptualize the layout and content of the site as a whole. The site also uses internal navigation with internal page links for navigating within a page. CSS style sheets organize the content logically. “Alt” tags are used in images to display alternative text for users of devices not capable of image display or having slow download times. Usability and accessibility can always be improved, but for a basic and coded-completely-from-scratch site, this competency is addressed fully.</p>
+
+<p>The site was coded from scratch in HTML and validated to W3C standards, shown by the icons at the bottom of each page. The website applies most elements of HTML successfully. The site applies CSS style sheets effectively as well, as evidenced by the success of the CSS file in styling the site consistently, attractively, and effectively (it works!). As with the HTML, validates to W3C standards for CSS, again shown by the icons at the bottom of each page. The CSS is used to style the content as opposed to using HTML to do so, demonstrating my understanding that content and style are separate and that best practice in web design is to use CSS for style and HTML for content.</p>
+
+<p>Finally, the site demonstrates my understanding of copyright and intellectual property issues, and more importantly, my ability to apply them, by acknowledging image copyright on my site and providing copyright information and source links: see “Fine Print” link. This was the format for addressing copyright of images in the class, but I think it would be an improvement to rename the link something more obvious than “Fine Print” so the user would know to click there for copyright information and attribution.</p>   
+	
+	<h2>A Model of Feline Information Behavior</h2>
+	<p>For a fun look into my initial attempts at both creating both HTML web files and understanding information behavior models, <a href="chryzrose.org/FIB/fibmapexp.html">visit here.</a></p>
+        </div><!-- End content -->
+		
+		<!--#include virtual="footer.html" -->		
+
+	</div><!-- End container -->
+</body>
+</html>
+
