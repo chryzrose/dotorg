@@ -21,7 +21,7 @@
      <h2>Portfolio Website</h2>
 	 
 	 <h3>Artifact</h3>
-	<p><a href="chryzrose.org/index.shtml">Portfolio Home</a></p>
+	<p><a href="/index.shtml">Portfolio Home</a></p>
 	
 	<h3>Discussion</h3>
 	
@@ -34,7 +34,7 @@
 <p>Finally, the site demonstrates my understanding of copyright and intellectual property issues, and more importantly, my ability to apply them, by acknowledging image copyright on my site and providing copyright information and source links: see “Fine Print” link. This was the format for addressing copyright of images in the class, but I think it would be an improvement to rename the link something more obvious than “Fine Print” so the user would know to click there for copyright information and attribution.</p>   
 	
 	<h2>A Model of Feline Information Behavior</h2>
-	<p>For a fun look into my initial attempts at both creating both HTML web files and understanding information behavior models, <a href="chryzrose.org/FIB/fibmapexp.html">visit here.</a></p>
+	<p>For a fun look into my initial attempts at both creating both HTML web files and understanding information behavior models, <a href="/FIB/fibmapexp.html">visit here.</a></p>
         </div><!-- End content -->
 		
 		<!--#include virtual="footer.html" -->		
@@ -42,4 +42,3 @@
 	</div><!-- End container -->
 </body>
 </html>
-
