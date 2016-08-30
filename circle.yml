@@ -18,6 +18,7 @@ test:
     - docker run -d -p 8000:8000 chryzrose/dotorg; sleep 10
     - curl -s -D - http://localhost:8000 -o /dev/null | grep "200 OK"
     - curl -s -D - http://localhost:8000 | grep "Professional Portfolio"
+    - wget --spider -e robots=off -r -p http://localhost:8000
 
 deployment:
   hub:
