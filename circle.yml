@@ -4,9 +4,6 @@ machine:
 
 checkout:
   post:
-    - git clone https://github.com/mathuin/rancher-config.git
-    - wget https://github.com/rancher/rancher-compose/releases/download/$RC_VERSION/rancher-compose-linux-amd64-$RC_VERSION.tar.gz
-    - tar zxf rancher-compose-linux-amd64-$RC_VERSION.tar.gz
 
 dependencies:
   override:
@@ -26,4 +23,7 @@ deployment:
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
       - docker push chryzrose/dotorg
+      - git clone https://github.com/mathuin/rancher-config.git
+      - wget https://github.com/rancher/rancher-compose/releases/download/$RC_VERSION/rancher-compose-linux-amd64-$RC_VERSION.tar.gz
+      - tar zxf rancher-compose-linux-amd64-$RC_VERSION.tar.gz
       - (cd rancher-config/chryzrose && ../../rancher-compose-$RC_VERSION/rancher-compose up -d -u -c dotorg)
