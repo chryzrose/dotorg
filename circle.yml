@@ -1,0 +1,28 @@
+machine:
+  services:
+    - docker
+
+checkout:
+  post:
+    - git clone https://github.com/mathuin/rancher-config.git
+    - wget https://github.com/rancher/rancher-compose/releases/download/$RC_VERSION/rancher-compose-linux-amd64-$RC_VERSION.tar.gz
+    - tar zxf rancher-compose-linux-amd64-$RC_VERSION.tar.gz
+
+dependencies:
+  override:
+    - docker info
+    - docker build -t chryzrose/dotorg .
+
+test:
+  override:
+    - docker run -d -p 8000:80 chryzrose/dotorg; sleep 10
+    - curl -s -D - http://localhost:8000 -o /dev/null | grep "200 OK"
+    - curl -s -D - http://localhost:8000 | grep "Professional Portfolio"
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+      - docker push chryzrose/dotorg
+      - (cd rancher-config/chryzrose && ../../rancher-compose-$RC_VERSION/rancher-compose up -d -u -c dotorg)
