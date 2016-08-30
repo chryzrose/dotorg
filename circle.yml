@@ -15,7 +15,7 @@ dependencies:
 
 test:
   override:
-    - docker run -d -p 8000:80 chryzrose/dotorg; sleep 10
+    - docker run -d chryzrose/dotorg; sleep 10
     - curl -s -D - http://localhost:8000 -o /dev/null | grep "200 OK"
     - curl -s -D - http://localhost:8000 | grep "Professional Portfolio"
 
