@@ -23,5 +23,5 @@ deployment:
     commands:
       - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
       - docker push $IMAGE
-      - git clone https://github.com/mathuin/rancher-config.git
-      - (cd rancher-config && ./deploy)
+      - git clone https://github.com/mathuin/rancher-deploy.git
+      - (cd rancher-deploy && ./deploy)
